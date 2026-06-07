@@ -1,6 +1,6 @@
 import socket
 import struct
-from models import Packet
+from models.models import Packet
 def parse_ip_header(raw_data):
     iph = struct.unpack('! B  B   H   H   H   B   B   H   4s  4s', raw_data[:20])
     print(f"full iph tuple: {iph}")

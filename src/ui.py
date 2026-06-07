@@ -1,7 +1,7 @@
 from rich.console import Console
 from rich.table import Table
 from rich.live import Live
-from models import Packet
+from models.models import Packet
 
 console = Console()
 

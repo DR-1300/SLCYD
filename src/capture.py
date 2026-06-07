@@ -1,9 +1,9 @@
 import socket
 import struct
-from pkt_parser import parse_packet
-from ui import make_table, add_packet_row, console,add_alert_row
+from src.pkt_parser import parse_packet
+from src.ui import make_table, add_packet_row, console,add_alert_row
 from rich.live import Live
-from analyser import Analyzer
+from src.analyser import Analyzer
 
 def get_local_ip():
     return socket.gethostbyname(socket.gethostname())

@@ -1,6 +1,6 @@
 from collections import defaultdict
 from datetime import datetime
-from models import Packet, Alert
+from models.models import Packet, Alert
 
 SUS_PORTS = {4444,1337,31337,9001,6667}
 

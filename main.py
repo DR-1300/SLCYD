@@ -1,5 +1,5 @@
 import argparse
-from capture import Sniffer
+from src.capture import Sniffer
 def parse_args():
     parser = argparse.ArgumentParser(description= "SLCYD - Network Packet Sniffer")
     parser.add_argument("--gateway", type=str, default="192.168.1.1", help="Your router IP")
