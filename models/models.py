@@ -10,7 +10,7 @@ class Packet:
     ttl:int
     size:int
     raw:bytes
-
+    os_guess :str | None = None
 @dataclass
 class Alert:
     severity: str
