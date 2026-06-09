@@ -1,7 +1,7 @@
 # SLCYD
 A raw socket network packet sniffer with a live terminal UI Captures and decodes TCP/UDP/ICMP traffic in real time and flags suspicious network patterns.
 
-i ( and claude tbh ) built it from scratch in python lol
+i ( and ALOT of documentation ) built it from scratch in python lol
 
 ---
 
